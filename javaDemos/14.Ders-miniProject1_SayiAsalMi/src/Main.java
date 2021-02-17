@@ -17,7 +17,7 @@ public class Main {
             System.out.println("Geçersiz sayı");
             return;
         }
-
+//camel casing = methodlarda ilk harf küçük diğerleri büyük (asalSayi) gibi
         for(int i = 2; i < number; i++)
         {
             if(number % i == 0)

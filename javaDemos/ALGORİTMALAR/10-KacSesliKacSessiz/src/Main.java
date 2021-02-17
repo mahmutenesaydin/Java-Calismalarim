@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main
 {
-//Kullanıcıdan ismini ve soyismini alarak içerisinde kaç adet sesli
-// kaç adet sessiz harf olduğunu bulan programı yazınız
+    //Kullanıcıdan ismini ve soyismini alarak içerisinde kaç adet sesli
+    // kaç adet sessiz harf olduğunu bulan programı yazınız
 
     public static void main(String[] args)
     {

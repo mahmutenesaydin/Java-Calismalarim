@@ -3,7 +3,7 @@ public class Main
     //0 ile 1000 arasındaki Asal sayıları bulan programı yazınız?
     public static void main(String[] args)
     {
-        int bolen = 0;
+        int bol en = 0;
         int i, j;
 
         for (i=3;i<1000;i++)
