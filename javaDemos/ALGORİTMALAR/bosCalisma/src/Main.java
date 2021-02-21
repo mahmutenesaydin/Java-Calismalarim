@@ -4,21 +4,18 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int bolen = 0;
-        int i,j;
+        int a = 0;
+        int b = 1;
+        int c = 0;
 
-        for(i = 3; i<1000; i++)
+        do
         {
-            for (j = 2; i<j; j++)
-            {
-                if(i%j==0)
-                    bolen++;
-            }
-            if (bolen==0)
-                System.out.println(i);
-            bolen = 0;
+            c = a + b;
+
+            System.out.println(c + " - ");
+            a = b;
+            b = c;
         }
-
-
+        while (c<100);
     }
 }

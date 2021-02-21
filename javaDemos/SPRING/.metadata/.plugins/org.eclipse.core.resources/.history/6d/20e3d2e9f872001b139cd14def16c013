@@ -1,0 +1,12 @@
+package springIntro;
+
+public class CustomerManager implements ICustomerDal
+{
+
+	@Override
+	public void add()
+	{
+		System.out.print("Oracle Veritabaný");
+	}
+
+}
